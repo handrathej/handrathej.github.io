@@ -154,7 +154,7 @@ body {
   background-color: #36393f;
   border-top: 15px solid #202225;
   overflow-y: auto;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 .profile {
