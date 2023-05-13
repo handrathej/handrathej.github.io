@@ -154,7 +154,11 @@ body {
   background-color: #36393f;
   border-top: 15px solid #202225;
   overflow-y: auto;
-    min-height: 100%;
+      min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 .profile {
@@ -426,7 +430,6 @@ body {
   }
 }
   @media screen and (min-width: 760px) {
-@media screen and (min-width: 550px) {
   .body {
   padding: 0 16px 16px 16px;
     min-height: 100%;
@@ -436,7 +439,6 @@ body {
 	align-items: center;
   }
 }
-  }
     @media screen and (min-width: 960px) {
   .platform {
     width: 75vw;
